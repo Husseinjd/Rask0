@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file>data/data.txt</file>
+        <file>rasko-icon.png</file>
+        <file>rask2.png</file>
+    </qresource>
+</RCC>

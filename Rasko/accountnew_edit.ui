@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>accountNew_edit</class>
+ <widget class="QDialog" name="accountNew_edit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>326</width>
+    <height>208</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:#333333;</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>19</y>
+     <width>69</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+   <property name="text">
+    <string>Account Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>54</y>
+     <width>76</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+   <property name="text">
+    <string>Username/Email</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>90</y>
+     <width>46</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+   <property name="text">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_add_edit">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>170</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+background-color: #71A031;
+  height: 25px;
+  border-radius:2px;
+  border:1px solid rgba(50,50,50,0.5);
+  color: #fff;</string>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_cancelAdd">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>170</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+	background-color: #71A031;
+  height: 25px;
+  border-radius:2px;
+  border:1px solid rgba(50,50,50,0.5);
+  color: #fff;</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="account_name">
+   <property name="geometry">
+    <rect>
+     <x>91</x>
+     <y>19</y>
+     <width>220</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-width: 0.5px;
+border-style: solid;
+border-color:#726F6F;
+color:white;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="username_email">
+   <property name="geometry">
+    <rect>
+     <x>91</x>
+     <y>54</y>
+     <width>220</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-width: 0.5px;
+border-style: solid;
+border-color:#726F6F;
+color:white;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="new_account_password">
+   <property name="geometry">
+    <rect>
+     <x>91</x>
+     <y>90</y>
+     <width>220</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-width: 0.5px;
+border-style: solid;
+border-color:#726F6F;
+color:white;</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#71A031;
+font-size:15px;</string>
+   </property>
+   <property name="text">
+    <string>RaSk0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_emptyName">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>36</y>
+     <width>201</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_emptyUserName">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>72</y>
+     <width>201</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_emptyPassword">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>110</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_pass_show">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>110</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+   <property name="text">
+    <string>Show</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_hidden_indx">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>180</y>
+     <width>21</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_generate">
+   <property name="geometry">
+    <rect>
+     <x>86</x>
+     <y>125</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">position: absolute;
+	background-color: #71A031;
+  height: 25px;
+  border-radius:2px;
+  border:1px solid rgba(50,50,50,0.5);
+  color: #fff;</string>
+   </property>
+   <property name="text">
+    <string>Generate Custom Password</string>
+   </property>
+  </widget>
+  <zorder>label_hidden_indx</zorder>
+  <zorder>label_emptyName</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>pushButton_add_edit</zorder>
+  <zorder>pushButton_cancelAdd</zorder>
+  <zorder>account_name</zorder>
+  <zorder>username_email</zorder>
+  <zorder>new_account_password</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_emptyUserName</zorder>
+  <zorder>label_emptyPassword</zorder>
+  <zorder>checkBox_pass_show</zorder>
+  <zorder>pushButton_generate</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

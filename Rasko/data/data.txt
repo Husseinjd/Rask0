@@ -1,0 +1,5 @@
+true,741456963,00:50:56:C0:00:08
+Moodle,haj14,Master*810
+outlook.com,h.j_master@hotmail.com,M741456963
+AUB Mail,haj14@mail.aub.edu,Master*810
+Steam (Master),master741456963,M78985214

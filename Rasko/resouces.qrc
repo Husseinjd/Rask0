@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>setting-gear.png</file>
+    </qresource>
+</RCC>
